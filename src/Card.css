@@ -1,0 +1,37 @@
+.card {
+	margin: 0 auto 3em;
+	width: 280px;
+	border-radius: 4px;
+	overflow: hidden;
+	font-size: 14px;
+	box-shadow: var(--box-shadow);
+}
+
+.card__flag {
+	width: 280px;
+	height: 180px;
+}
+
+.card__flag > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.card__info {
+	padding: 1em 1.3em 3em;
+}
+
+.card__info > h3 {
+	font-size: 1.1rem;
+	font-weight: 800;
+	margin-bottom: 0.8em;
+}
+
+.card__info > p:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.card__info > p > span {
+	font-weight: 600;
+}
